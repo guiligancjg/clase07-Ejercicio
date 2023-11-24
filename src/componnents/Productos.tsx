@@ -48,7 +48,8 @@ const Productos: React.FC<ProductosProps> = ({
                <ListGroup.Item>$ {precio}</ListGroup.Item>
                <ListGroup.Item>SKU: {sku}</ListGroup.Item>
                <ListGroup.Item>STOCK: {cantidad_disponible}</ListGroup.Item>
-               <Button type="submit" onClick={comprar} disabled={botonDeshabilitado}>Comprar</Button>
+               <Button type="submit" onClick={comprar
+               } disabled={botonDeshabilitado}>Comprar</Button>
             </ListGroup>
             {compraRealizada && (
                <Card.Body>
